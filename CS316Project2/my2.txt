@@ -1,0 +1,126 @@
+<clause>
+
+ <head>
+  <functor> exist
+   <var> X
+   <list with "|">
+    <var> X
+    <var> T
+
+--------------------
+
+<clause>
+
+ <head>
+  <functor> exist
+   <var> X
+   <list with "|">
+    <var> Y
+    <var> T
+
+ <atomic formula>
+  <functor> exist
+   <var> X
+   <var> T
+
+--------------------
+
+<clause>
+
+ <head>
+  <functor> length
+   <list of terms>
+   <int> 0
+
+--------------------
+
+<clause>
+
+ <head>
+  <functor> length
+   <list with "|">
+    <var> H
+    <var> T
+   <var> X
+
+ <atomic formula>
+  <functor> length
+   <var> T
+   <var> Y
+
+ <atomic formula>
+  <var> X
+  <var> Y
+  +
+  <int> 1
+
+--------------------
+
+<clause>
+
+ <head>
+  <functor> nth
+   <list with "|">
+    <var> H
+    <var> T
+   <int> 1
+   <var> H
+
+--------------------
+
+<clause>
+
+ <head>
+  <functor> nth
+   <list with "|">
+    <var> H
+    <var> T
+   <var> N
+   <var> X
+
+ <atomic formula>
+  <var> N
+  >
+  <int> 1
+
+ <atomic formula>
+  <var> N1
+  <var> N
+  -
+  <int> 1
+
+ <atomic formula>
+  <functor> nth
+   <var> T
+   <var> N1
+   <var> X
+
+--------------------
+
+<clause>
+
+ <head>
+  <functor> append
+   <list of terms>
+   <var> L
+   <var> L
+
+--------------------
+
+<clause>
+
+ <head>
+  <functor> append
+   <list with "|">
+    <var> H
+    <var> K
+   <var> L
+   <list with "|">
+    <var> H
+    <var> M
+
+ <atomic formula>
+  <functor> append
+   <var> K
+   <var> L
+   <var> M

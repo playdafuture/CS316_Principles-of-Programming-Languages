@@ -1,0 +1,45 @@
+<clause>
+
+ <head>
+  <functor> cylinderVolume
+   <var> Length
+   <var> Radius
+   <var> V
+
+ <atomic formula>
+  <var> R2
+  <var> Radius
+  *
+  <var> Radius
+
+ <atomic formula>
+  <var> A
+  <var> R2
+  *
+  <float> 3.14159
+
+ <atomic formula>
+  <var> V
+  <var> A
+  *
+  <var> Length
+
+--------------------
+
+<clause>
+
+ <head>
+  <functor> between
+   <var> X
+   <var> A
+   <var> B
+
+ <atomic formula>
+  <var> A
+  =<
+  <var> X
+
+ <atomic formula>
+  <var> X
+  =<
+  <var> B

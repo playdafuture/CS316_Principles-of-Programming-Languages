@@ -1,0 +1,532 @@
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to true.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+true:1:NonEmptyBSTNode:6
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:true:1:NonEmptyBSTNode:6
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to false.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+false:1:NonEmptyBSTNode:6
+false:2:NonEmptyBSTNode:4
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:false:1:NonEmptyBSTNode:6
++:false:2:NonEmptyBSTNode:4
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to true.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+true:1:NonEmptyBSTNode:6
+true:2:NonEmptyBSTNode:4
+true:3:NonEmptyBSTNode:2
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:true:1:NonEmptyBSTNode:6
++:true:2:NonEmptyBSTNode:4
++:true:3:NonEmptyBSTNode:2
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to false.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+false:1:NonEmptyBSTNode:6
+false:2:NonEmptyBSTNode:4
+false:3:NonEmptyBSTNode:2
+false:4:NonEmptyBSTNode:1
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:false:1:NonEmptyBSTNode:6
++:false:2:NonEmptyBSTNode:4
++:false:3:NonEmptyBSTNode:2
++:false:4:NonEmptyBSTNode:1
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to true.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+true:1:NonEmptyBSTNode:6
+true:2:NonEmptyBSTNode:4
+true:3:NonEmptyBSTNode:2
+true:4:NonEmptyBSTNode:1
+true:5:NonEmptyBSTNode:3
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:true:1:NonEmptyBSTNode:6
++:true:2:NonEmptyBSTNode:4
++:true:3:NonEmptyBSTNode:2
++:true:4:NonEmptyBSTNode:1
++:true:5:NonEmptyBSTNode:3
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to false.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+false:1:NonEmptyBSTNode:6
+false:2:NonEmptyBSTNode:4
+false:3:NonEmptyBSTNode:2
+false:4:NonEmptyBSTNode:1
+false:5:NonEmptyBSTNode:3
+false:6:NonEmptyBSTNode:5
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:false:1:NonEmptyBSTNode:6
++:false:2:NonEmptyBSTNode:4
++:false:3:NonEmptyBSTNode:2
++:false:4:NonEmptyBSTNode:1
++:false:5:NonEmptyBSTNode:3
++:false:6:NonEmptyBSTNode:5
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to true.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+true:1:NonEmptyBSTNode:6
+true:2:NonEmptyBSTNode:4
+true:3:NonEmptyBSTNode:2
+true:4:NonEmptyBSTNode:1
+true:5:NonEmptyBSTNode:3
+true:6:NonEmptyBSTNode:5
+true:7:NonEmptyBSTNode:8
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:true:1:NonEmptyBSTNode:6
++:true:2:NonEmptyBSTNode:4
++:true:3:NonEmptyBSTNode:2
++:true:4:NonEmptyBSTNode:1
++:true:5:NonEmptyBSTNode:3
++:true:6:NonEmptyBSTNode:5
++:true:7:NonEmptyBSTNode:8
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to false.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+false:1:NonEmptyBSTNode:6
+false:2:NonEmptyBSTNode:4
+false:3:NonEmptyBSTNode:2
+false:4:NonEmptyBSTNode:1
+false:5:NonEmptyBSTNode:3
+false:6:NonEmptyBSTNode:5
+false:7:NonEmptyBSTNode:8
+false:8:NonEmptyBSTNode:7
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:false:1:NonEmptyBSTNode:6
++:false:2:NonEmptyBSTNode:4
++:false:3:NonEmptyBSTNode:2
++:false:4:NonEmptyBSTNode:1
++:false:5:NonEmptyBSTNode:3
++:false:6:NonEmptyBSTNode:5
++:false:7:NonEmptyBSTNode:8
++:false:8:NonEmptyBSTNode:7
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to true.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+true:1:NonEmptyBSTNode:6
+true:2:NonEmptyBSTNode:4
+true:3:NonEmptyBSTNode:2
+true:4:NonEmptyBSTNode:1
+true:5:NonEmptyBSTNode:3
+true:6:NonEmptyBSTNode:5
+true:7:NonEmptyBSTNode:8
+true:8:NonEmptyBSTNode:7
+true:9:NonEmptyBSTNode:9
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:true:1:NonEmptyBSTNode:6
++:true:2:NonEmptyBSTNode:4
++:true:3:NonEmptyBSTNode:2
++:true:4:NonEmptyBSTNode:1
++:true:5:NonEmptyBSTNode:3
++:true:6:NonEmptyBSTNode:5
++:true:7:NonEmptyBSTNode:8
++:true:8:NonEmptyBSTNode:7
++:true:9:NonEmptyBSTNode:9
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to false.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+false:1:NonEmptyBSTNode:6
+false:2:NonEmptyBSTNode:4
+false:3:NonEmptyBSTNode:2
+false:4:NonEmptyBSTNode:1
+false:5:NonEmptyBSTNode:3
+false:6:NonEmptyBSTNode:5
+false:7:NonEmptyBSTNode:8
+false:8:NonEmptyBSTNode:7
+false:9:NonEmptyBSTNode:9
+false:10:NonEmptyBSTNode:10
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:false:1:NonEmptyBSTNode:6
++:false:2:NonEmptyBSTNode:4
++:false:3:NonEmptyBSTNode:2
++:false:4:NonEmptyBSTNode:1
++:false:5:NonEmptyBSTNode:3
++:false:6:NonEmptyBSTNode:5
++:false:7:NonEmptyBSTNode:8
++:false:8:NonEmptyBSTNode:7
++:false:9:NonEmptyBSTNode:9
++:false:10:NonEmptyBSTNode:10
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to true.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+true:1:NonEmptyBSTNode:5
+true:2:NonEmptyBSTNode:4
+true:3:NonEmptyBSTNode:2
+true:4:NonEmptyBSTNode:1
+true:5:NonEmptyBSTNode:3
+true:7:NonEmptyBSTNode:8
+true:8:NonEmptyBSTNode:7
+true:9:NonEmptyBSTNode:9
+true:10:NonEmptyBSTNode:10
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:true:1:NonEmptyBSTNode:5
++:true:2:NonEmptyBSTNode:4
++:true:3:NonEmptyBSTNode:2
++:true:4:NonEmptyBSTNode:1
++:true:5:NonEmptyBSTNode:3
+-:false:6:NonEmptyBSTNode:5
++:true:7:NonEmptyBSTNode:8
++:true:8:NonEmptyBSTNode:7
++:true:9:NonEmptyBSTNode:9
++:true:10:NonEmptyBSTNode:10
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to false.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+false:1:NonEmptyBSTNode:5
+false:3:NonEmptyBSTNode:2
+false:4:NonEmptyBSTNode:1
+false:5:NonEmptyBSTNode:3
+false:7:NonEmptyBSTNode:8
+false:8:NonEmptyBSTNode:7
+false:9:NonEmptyBSTNode:9
+false:10:NonEmptyBSTNode:10
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:false:1:NonEmptyBSTNode:5
+-:true:2:NonEmptyBSTNode:4
++:false:3:NonEmptyBSTNode:2
++:false:4:NonEmptyBSTNode:1
++:false:5:NonEmptyBSTNode:3
++:false:7:NonEmptyBSTNode:8
++:false:8:NonEmptyBSTNode:7
++:false:9:NonEmptyBSTNode:9
++:false:10:NonEmptyBSTNode:10
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to true.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+true:1:NonEmptyBSTNode:5
+true:3:NonEmptyBSTNode:1
+true:5:NonEmptyBSTNode:3
+true:7:NonEmptyBSTNode:8
+true:8:NonEmptyBSTNode:7
+true:9:NonEmptyBSTNode:9
+true:10:NonEmptyBSTNode:10
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:true:1:NonEmptyBSTNode:5
++:true:3:NonEmptyBSTNode:1
+-:false:4:NonEmptyBSTNode:1
++:true:5:NonEmptyBSTNode:3
++:true:7:NonEmptyBSTNode:8
++:true:8:NonEmptyBSTNode:7
++:true:9:NonEmptyBSTNode:9
++:true:10:NonEmptyBSTNode:10
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to false.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+false:1:NonEmptyBSTNode:5
+false:5:NonEmptyBSTNode:3
+false:7:NonEmptyBSTNode:8
+false:8:NonEmptyBSTNode:7
+false:9:NonEmptyBSTNode:9
+false:10:NonEmptyBSTNode:10
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:false:1:NonEmptyBSTNode:5
+-:true:3:NonEmptyBSTNode:1
++:false:5:NonEmptyBSTNode:3
++:false:7:NonEmptyBSTNode:8
++:false:8:NonEmptyBSTNode:7
++:false:9:NonEmptyBSTNode:9
++:false:10:NonEmptyBSTNode:10
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to true.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+true:1:NonEmptyBSTNode:5
+true:7:NonEmptyBSTNode:8
+true:8:NonEmptyBSTNode:7
+true:9:NonEmptyBSTNode:9
+true:10:NonEmptyBSTNode:10
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:true:1:NonEmptyBSTNode:5
+-:false:5:NonEmptyBSTNode:3
++:true:7:NonEmptyBSTNode:8
++:true:8:NonEmptyBSTNode:7
++:true:9:NonEmptyBSTNode:9
++:true:10:NonEmptyBSTNode:10
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to false.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+false:7:NonEmptyBSTNode:8
+false:8:NonEmptyBSTNode:7
+false:9:NonEmptyBSTNode:9
+false:10:NonEmptyBSTNode:10
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
+-:true:1:NonEmptyBSTNode:5
++:false:7:NonEmptyBSTNode:8
++:false:8:NonEmptyBSTNode:7
++:false:9:NonEmptyBSTNode:9
++:false:10:NonEmptyBSTNode:10
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to true.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+true:7:NonEmptyBSTNode:7
+true:9:NonEmptyBSTNode:9
+true:10:NonEmptyBSTNode:10
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:true:7:NonEmptyBSTNode:7
+-:false:8:NonEmptyBSTNode:7
++:true:9:NonEmptyBSTNode:9
++:true:10:NonEmptyBSTNode:10
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to false.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+false:9:NonEmptyBSTNode:9
+false:10:NonEmptyBSTNode:10
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
+-:true:7:NonEmptyBSTNode:7
++:false:9:NonEmptyBSTNode:9
++:false:10:NonEmptyBSTNode:10
+
+The unreachable objects have been deleted from the linked list.
+
+---------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed to true.
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+true:10:NonEmptyBSTNode:10
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
+-:false:9:NonEmptyBSTNode:9
++:true:10:NonEmptyBSTNode:10
+
+The unreachable objects have been deleted from the linked list.
+

@@ -1,0 +1,16 @@
+X is +7 + -8
+X is +0. - -9.
+X is 87.E-2 * -.65e+2
+X is +84.634 / -765.54E+12
+
+cylinderVolume(Length, Radius, V) :-
+	R2 is Radius * Radius, A is R2 * 3.14159, V is A * Length.
+
+between(X, A, B) :- A =< X, X =< B.
+
+X < Y
+X =< Y
+X > Y
+X >= Y
+X = Y
+X \= Y

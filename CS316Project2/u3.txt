@@ -1,0 +1,4 @@
+cylinderVolume(Length, Radius, V) :-
+	R2 is Radius * Radius, A is R2 * 3.14159, V is A * Length.
+
+between(X, A, B) :- A =< X, X =< B.

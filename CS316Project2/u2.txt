@@ -1,0 +1,11 @@
+  exist(X, [X|T]).
+  exist(X, [Y|T]) :- exist(X, T).
+
+  length([], 0).
+  length([H|T], X) :- length(T, Y), X is Y + 1 .
+
+  nth([H|T], 1, H).
+  nth([H|T], N, X) :- N > 1, N1 is N - 1, nth(T, N1, X).
+
+  append([], L, L).
+  append([H|K], L, [H|M]) :- append(K, L, M).

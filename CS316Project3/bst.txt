@@ -1,0 +1,278 @@
+The total number of function calls so far = 1
+The maximum stack size so far = 1
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARinsert target = e k = 6
+
+The total number of function calls so far = 3
+The maximum stack size so far = 2
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARinsert target = e k = 4
+ARinsert target = [6, e, e] k = 4
+
+The total number of function calls so far = 6
+The maximum stack size so far = 3
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARinsert target = e k = 2
+ARinsert target = [4, e, e] k = 2
+ARinsert target = [6, [4, e, e], e] k = 2
+
+The total number of function calls so far = 10
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARinsert target = e k = 1
+ARinsert target = [2, e, e] k = 1
+ARinsert target = [4, [2, e, e], e] k = 1
+ARinsert target = [6, [4, [2, e, e], e], e] k = 1
+
+The total number of function calls so far = 14
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARinsert target = e k = 3
+ARinsert target = [2, [1, e, e], e] k = 3
+ARinsert target = [4, [2, [1, e, e], e], e] k = 3
+ARinsert target = [6, [4, [2, [1, e, e], e], e], e] k = 3
+
+The total number of function calls so far = 17
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARinsert target = e k = 5
+ARinsert target = [4, [2, [1, e, e], [3, e, e]], e] k = 5
+ARinsert target = [6, [4, [2, [1, e, e], [3, e, e]], e], e] k = 5
+
+The total number of function calls so far = 19
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARinsert target = e k = 8
+ARinsert target = [6, [4, [2, [1, e, e], [3, e, e]], [5, e, e]], e] k = 8
+
+The total number of function calls so far = 22
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARinsert target = e k = 7
+ARinsert target = [8, e, e] k = 7
+ARinsert target = [6, [4, [2, [1, e, e], [3, e, e]], [5, e, e]], [8, e, e]] k = 7
+
+The total number of function calls so far = 25
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARinsert target = e k = 9
+ARinsert target = [8, [7, e, e], e] k = 9
+ARinsert target = [6, [4, [2, [1, e, e], [3, e, e]], [5, e, e]], [8, [7, e, e], e]] k = 9
+
+The total number of function calls so far = 29
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARinsert target = e k = 10
+ARinsert target = [9, e, e] k = 10
+ARinsert target = [8, [7, e, e], [9, e, e]] k = 10
+ARinsert target = [6, [4, [2, [1, e, e], [3, e, e]], [5, e, e]], [8, [7, e, e], [9, e, e]]] k = 10
+
+The total number of function calls so far = 30
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARsearch target = [6, [4, [2, [1, e, e], [3, e, e]], [5, e, e]], [8, [7, e, e], [9, e, [10, e, e]]]] k = 6
+
+The total number of function calls so far = 32
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARsearch target = [4, [2, [1, e, e], [3, e, e]], [5, e, e]] k = 4
+ARsearch target = [6, [4, [2, [1, e, e], [3, e, e]], [5, e, e]], [8, [7, e, e], [9, e, [10, e, e]]]] k = 4
+
+The total number of function calls so far = 35
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARsearch target = [2, [1, e, e], [3, e, e]] k = 2
+ARsearch target = [4, [2, [1, e, e], [3, e, e]], [5, e, e]] k = 2
+ARsearch target = [6, [4, [2, [1, e, e], [3, e, e]], [5, e, e]], [8, [7, e, e], [9, e, [10, e, e]]]] k = 2
+
+The total number of function calls so far = 39
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARsearch target = [1, e, e] k = 1
+ARsearch target = [2, [1, e, e], [3, e, e]] k = 1
+ARsearch target = [4, [2, [1, e, e], [3, e, e]], [5, e, e]] k = 1
+ARsearch target = [6, [4, [2, [1, e, e], [3, e, e]], [5, e, e]], [8, [7, e, e], [9, e, [10, e, e]]]] k = 1
+
+The total number of function calls so far = 43
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARsearch target = [3, e, e] k = 3
+ARsearch target = [2, [1, e, e], [3, e, e]] k = 3
+ARsearch target = [4, [2, [1, e, e], [3, e, e]], [5, e, e]] k = 3
+ARsearch target = [6, [4, [2, [1, e, e], [3, e, e]], [5, e, e]], [8, [7, e, e], [9, e, [10, e, e]]]] k = 3
+
+The total number of function calls so far = 46
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARsearch target = [5, e, e] k = 5
+ARsearch target = [4, [2, [1, e, e], [3, e, e]], [5, e, e]] k = 5
+ARsearch target = [6, [4, [2, [1, e, e], [3, e, e]], [5, e, e]], [8, [7, e, e], [9, e, [10, e, e]]]] k = 5
+
+The total number of function calls so far = 48
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARsearch target = [8, [7, e, e], [9, e, [10, e, e]]] k = 8
+ARsearch target = [6, [4, [2, [1, e, e], [3, e, e]], [5, e, e]], [8, [7, e, e], [9, e, [10, e, e]]]] k = 8
+
+The total number of function calls so far = 51
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARsearch target = [7, e, e] k = 7
+ARsearch target = [8, [7, e, e], [9, e, [10, e, e]]] k = 7
+ARsearch target = [6, [4, [2, [1, e, e], [3, e, e]], [5, e, e]], [8, [7, e, e], [9, e, [10, e, e]]]] k = 7
+
+The total number of function calls so far = 54
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARsearch target = [9, e, [10, e, e]] k = 9
+ARsearch target = [8, [7, e, e], [9, e, [10, e, e]]] k = 9
+ARsearch target = [6, [4, [2, [1, e, e], [3, e, e]], [5, e, e]], [8, [7, e, e], [9, e, [10, e, e]]]] k = 9
+
+The total number of function calls so far = 58
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARsearch target = [10, e, e] k = 10
+ARsearch target = [9, e, [10, e, e]] k = 10
+ARsearch target = [8, [7, e, e], [9, e, [10, e, e]]] k = 10
+ARsearch target = [6, [4, [2, [1, e, e], [3, e, e]], [5, e, e]], [8, [7, e, e], [9, e, [10, e, e]]]] k = 10
+
+The total number of function calls so far = 59
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARdelete target = [6, [4, [2, [1, e, e], [3, e, e]], [5, e, e]], [8, [7, e, e], [9, e, [10, e, e]]]] k = 6 pred 0
+
+The total number of function calls so far = 62
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARdelete target = [5, e, e] k = 5 pred 0
+ARdelete target = [4, [2, [1, e, e], [3, e, e]], [5, e, e]] k = 5 pred 0
+ARdelete target = [5, [4, [2, [1, e, e], [3, e, e]], [5, e, e]], [8, [7, e, e], [9, e, [10, e, e]]]] k = 6 pred 5
+
+The total number of function calls so far = 64
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARdelete target = [4, [2, [1, e, e], [3, e, e]], e] k = 4 pred 0
+ARdelete target = [5, [4, [2, [1, e, e], [3, e, e]], e], [8, [7, e, e], [9, e, [10, e, e]]]] k = 4 pred 0
+
+The total number of function calls so far = 66
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARdelete target = [2, [1, e, e], [3, e, e]] k = 2 pred 0
+ARdelete target = [5, [2, [1, e, e], [3, e, e]], [8, [7, e, e], [9, e, [10, e, e]]]] k = 2 pred 0
+
+The total number of function calls so far = 68
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARdelete target = [1, e, e] k = 1 pred 0
+ARdelete target = [1, [1, e, e], [3, e, e]] k = 2 pred 1
+ARdelete target = [5, [1, [1, e, e], [3, e, e]], [8, [7, e, e], [9, e, [10, e, e]]]] k = 2 pred 0
+
+The total number of function calls so far = 70
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARdelete target = [1, e, [3, e, e]] k = 1 pred 0
+ARdelete target = [5, [1, e, [3, e, e]], [8, [7, e, e], [9, e, [10, e, e]]]] k = 1 pred 0
+
+The total number of function calls so far = 72
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARdelete target = [3, e, e] k = 3 pred 0
+ARdelete target = [5, [3, e, e], [8, [7, e, e], [9, e, [10, e, e]]]] k = 3 pred 0
+
+The total number of function calls so far = 73
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARdelete target = [5, e, [8, [7, e, e], [9, e, [10, e, e]]]] k = 5 pred 0
+
+The total number of function calls so far = 74
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARdelete target = [8, [7, e, e], [9, e, [10, e, e]]] k = 8 pred 0
+
+The total number of function calls so far = 76
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARdelete target = [7, e, e] k = 7 pred 0
+ARdelete target = [7, [7, e, e], [9, e, [10, e, e]]] k = 8 pred 7
+
+The total number of function calls so far = 77
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARdelete target = [7, e, [9, e, [10, e, e]]] k = 7 pred 0
+
+The total number of function calls so far = 78
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARdelete target = [9, e, [10, e, e]] k = 9 pred 0
+
+The total number of function calls so far = 79
+The maximum stack size so far = 4
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARdelete target = [10, e, e] k = 10 pred 0
+

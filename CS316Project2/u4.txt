@@ -1,0 +1,13 @@
+p(f(a, X, z), rational(10, 3), g(87.654, Y)) :- 
+	X = [ cs316, rational(10, 3), 87.654, X, CS316, f(a, X, z), [1, 2, 3] ],
+	func(X) \= aaa.
+
+q([ cs316, rational(10, 3), 87.654, X, CS316, f(a, X, z), [1, 2, 3] ]) :-
+	r,
+	T \= cs340,
+	56 =< X,
+	87.8e-2 >= X,
+	5342 = 6.E+3,
+	87.8e-2 \= x,
+	rAA(X) = rAA(rational(10, 3)),
+	cs = V1.

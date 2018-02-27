@@ -1,0 +1,106 @@
+<clause>
+
+ <head>
+  <functor> p
+   <functor> f
+     <functor> a
+     <var> X
+     <functor> z
+   <functor> rational
+     <int> 10
+     <int> 3
+   <functor> g
+     <float> 87.654
+     <var> Y
+
+ <atomic formula> 
+  <var> X
+  =
+  <list of terms>
+    <functor> cs316
+    <functor> rational
+      <int> 10
+      <int> 3
+    <float> 87.654
+    <var> X
+    <var> CS316
+    <functor> f
+      <functor> a
+      <var> X
+      <functor> z
+    <list of terms>
+      <int> 1
+      <int> 2
+      <int> 3
+
+ <atomic formula> 
+  <functor> func
+    <var> X
+  \=
+  <functor> aaa
+
+--------------------
+
+<clause>
+
+ <head>
+  <functor> q
+   <list of terms>
+     <functor> cs316
+     <functor> rational
+       <int> 10
+       <int> 3
+     <float> 87.654
+     <var> X
+     <var> CS316
+     <functor> f
+       <functor> a
+       <var> X
+       <functor> z
+     <list of terms>
+       <int> 1
+       <int> 2
+       <int> 3
+
+ <atomic formula> 
+  <functor> r
+
+ <atomic formula> 
+  <var> T
+  \=
+  <functor> cs340
+
+ <atomic formula> 
+  <int> 56
+  =<
+  <var> X
+
+ <atomic formula> 
+  <float> 87.8e-2
+  >=
+  <var> X
+
+ <atomic formula> 
+  <int> 5342
+  =
+  <float> 6.E+3
+
+ <atomic formula> 
+  <float> 87.8e-2
+  \=
+  <functor> x
+
+ <atomic formula> 
+  <functor> rAA
+    <var> X
+  =
+  <functor> rAA
+    <functor> rational
+      <int> 10
+      <int> 3
+
+ <atomic formula> 
+  <functor> cs
+  =
+  <var> V1
+

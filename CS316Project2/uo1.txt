@@ -1,0 +1,49 @@
+<clause>
+
+ <head>
+  <functor> ancestor
+   <var> X
+   <var> Y
+
+ <atomic formula> 
+  <functor> parent
+   <var> X
+   <var> Y
+
+--------------------
+
+<clause>
+
+ <head>
+  <functor> ancestor
+   <var> X
+   <var> Z
+
+ <atomic formula> 
+  <functor> parent
+   <var> X
+   <var> Y
+
+ <atomic formula> 
+  <functor> ancestor
+   <var> Y
+   <var> Z
+
+--------------------
+
+<clause>
+
+ <head>
+  <functor> parent
+   <functor> mary
+   <functor> joann
+
+--------------------
+
+<clause>
+
+ <head>
+  <functor> parent
+   <functor> joann
+   <functor> steve
+

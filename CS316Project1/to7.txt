@@ -1,0 +1,22 @@
+is   : Keyword_is
+iS   : Functor
+Is   : Var
+IS   : Var
+ABis   : Var
+isCD   : Functor
+Xisy   : Var
+is123   : Functor
+Is123   : Var
+CS316   : Var
+-   : Sub
+CS313   : Var
+CS316   : Var
+_ : Lexical Error, invalid token
+CS313   : Var
+CS   : Var
+# : Lexical Error, invalid token
+316   : Int
+CS   : Var
+% : Lexical Error, invalid token
+316   : Int
+

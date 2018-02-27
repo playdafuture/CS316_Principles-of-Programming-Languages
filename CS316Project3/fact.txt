@@ -1,0 +1,11 @@
+The total number of function calls so far = 5
+The maximum stack size so far = 5
+
+The contents of the runtime stack will be displayed from top to bottom:
+
+ARfact n = 1 t = 0
+ARfact n = 2 t = 0
+ARfact n = 3 t = 0
+ARfact n = 4 t = 0
+ARfact n = 5 t = 0
+
